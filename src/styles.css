@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+html, body { 
+    height: 100%; 
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Nombre principal */
+h1 {
+    font-size: 3em;              
+    color: #333;
+}
+h2{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+/* Subtítulo (ocupación) */
+h4 {
+    color: #777;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+i{
+  font-size: large;
+  color: #00c0e0;
+  margin-bottom: 7px;
+}
+
+span{
+  color: #00c0e0;
+}
+
+p{
+  color: #a3a3a3;
+}
+
+.contenido{
+  height: 100%;
+  padding: 8%;
+  overflow-y: auto;
+}

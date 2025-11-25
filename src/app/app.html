@@ -1,0 +1,31 @@
+<mat-sidenav-container>
+    <mat-sidenav position="end" opened mode="side"><app-custom-sidenav/></mat-sidenav>
+
+    <mat-drawer-content style="margin-right: 0px;">
+        <app-toolbar></app-toolbar>
+
+        <body>
+            <div class="contenedor">
+                <!-- Panel Izquierdo -->
+                <div class="panel-izquierdo">
+                    <img src="/1720203639234.jpeg" alt="Foto perfil" class="foto-perfil">
+                    <h2>Enrique Ruiz</h2>
+                    <p>Desarrollador web</p>
+                    <div class="iconos-sociales">
+                        <a href="https://api.whatsapp.com/send?phone=34657825611" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
+                                alt="YouTube"></a>
+                        <a href="https://www.linkedin.com/in/enri-ruiz-tirado-603149268/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                                alt="LinkedIn"></a>
+                        <a href="https://github.com/enri123" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+                                alt="GitHub"></a>
+                    </div>
+                    <button class="btn-cv"><a href="https://drive.google.com/file/d/1hNKqI6rM1CABH8SPJVRBo_ZW4T8WY5mw/view?usp=sharing" download="nombre-del-archivo.pdf" target="_blank">Descargar CV</a></button>
+                </div>
+
+                <div class="panel-derecho">
+                    <router-outlet />
+                </div>
+            </div>
+        </body>
+    </mat-drawer-content>
+</mat-sidenav-container>

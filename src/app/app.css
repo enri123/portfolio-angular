@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: #f5f7fa;
+}
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #00BCD4;
+}
+
+.contenedor {
+    margin-left: 4%;
+    margin-right: 10px;
+    background: #00BCD4;              
+    display: flex;                  
+    width: 90%;                        
+    max-width: 1700px;                
+    height: 85%;                      
+    border-radius: 20px;              
+    box-shadow: 0 0 25px rgba(0,0,0,0.2); 
+    overflow: hidden;                 
+}
+
+.panel-izquierdo {
+    background: #00BCD4;               
+    color: white;
+    width: 30%;                        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.panel-izquierdo .foto-perfil {
+    width: 140px;                      
+    height: 140px;
+    border-radius: 50%;             
+    border: 4px solid white;         
+    margin-bottom: 15px;
+}
+
+.panel-izquierdo h2{
+    margin-bottom: 0;
+}
+
+.panel-izquierdo p {
+    margin-bottom: 15px;
+}
+
+.iconos-sociales {
+    display: flex;
+    gap: 10px;                         
+    margin-bottom: 20px;
+}
+
+.iconos-sociales img {
+    width: 26px;                       
+    filter: invert(1);                 
+    transition: transform 0.3s ease;   
+}
+
+.iconos-sociales img:hover {
+    transform: scale(1.2);              
+}
+
+
+.btn-cv {
+    background: white;
+    color: #00BCD4;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-cv:hover {
+    background: #0097A7;
+    color: white;
+}
+
+.panel-derecho{
+    border-radius: 100px 0px 0px 100px;
+    background: white;
+    width: 70%;      
+    padding-bottom: 10px;        
+}
+
+mat-sidenav-container{
+    background: #f5f7fa;
+}
+
+mat-sidenav-content{
+    margin-right: 0;
+}
+
+mat-sidenav {
+    position: absolute;
+    top: 30%;
+    right: 10px;          
+    transform: translateY(-50%);
+    height: 35%;
+    width: 4%;
+    border-radius: 30px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}

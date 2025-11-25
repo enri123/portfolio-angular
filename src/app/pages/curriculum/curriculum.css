@@ -1,0 +1,84 @@
+h3 {
+  color: black;
+}
+
+.contenedor-cv {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.bloque-formacion {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.bloque-habilidades {
+  width: 40%;
+}
+
+.lista-formacion,
+.lista-experiencia {
+  width: 100%;
+}
+
+.columna-izq {
+  width: 20%;
+  text-align: end;
+  border-color: gainsboro;
+  border-right-width: 1px;
+}
+
+.columna-der {
+  width: 75%;
+}
+
+.centro {
+  color: #d1d1d1;
+}
+
+.item-formacion,
+.item-experiencia {
+  margin-bottom: 0;
+  display: flex;
+  width: 100%;
+}
+
+/* Punto del timeline */
+.linea-separador {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  border: 3px solid #00c0e0;
+  border-radius: 50%;
+  margin: 5px 10px;
+  position: relative;
+}
+
+/* Línea vertical del timeline */
+.linea-separador::after {
+  content: "";
+  position: absolute;
+  top: 14px; /* justo debajo del círculo */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: calc(100% + 110px); /* ajusta según separación */
+  background-color: #00c0e0;
+  z-index: 1;
+}
+
+.detalle-estudio,
+.detalle-experiencia {
+  color: #a3a3a3;
+}
+
+.tecnologia {
+  margin-bottom: 5px;
+}
+
+.anio, .empresa, .titulo-estudio{
+  color: black;
+    margin-bottom: 5px;
+
+}

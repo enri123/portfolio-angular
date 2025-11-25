@@ -1,0 +1,6 @@
+.enlace-boton:hover{
+    background-color: #00BCD4;
+}
+.enlace-boton.active{
+    background-color: #00BCD4;
+}
