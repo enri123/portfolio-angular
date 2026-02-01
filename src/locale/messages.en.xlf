@@ -88,7 +88,7 @@
 
       <trans-unit id="847724028546997054" datatype="html">
         <source>Currículum</source>
-        <target>CurrIculum</target>
+        <target>Curriculum</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
           <context context-type="linenumber">2,3</context>
@@ -228,6 +228,25 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
           <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="9029774994601298293" datatype="html">
+        <source>Proyectos Personales</source>
+        <target>Personal projects</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portafolio/portafolio.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7218075423554070735" datatype="html">
+        <source>Sobre mi</source>
+        <target>About me</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
 

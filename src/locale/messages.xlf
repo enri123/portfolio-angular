@@ -189,6 +189,21 @@
           <context context-type="linenumber">24,25</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="9029774994601298293" datatype="html">
+        <source>Proyectos Personales</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portafolio/portafolio.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7218075423554070735" datatype="html">
+        <source>Sobre mi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+
       <trans-unit id="2680266483863832030" datatype="html">
         <source>En el ciclo de Desarrollo de Aplicaciones Web reforcé mis conocimientos en Git, SQL, JavaScript, PHP, HTML y CSS, desarrollando proyectos completos combinando backend, frontend y control de versiones. Esta formación me permitió crear aplicaciones web funcionales, estructuradas y optimizadas.</source>
         <context-group purpose="location">
