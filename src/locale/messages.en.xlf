@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+
+      <trans-unit id="3697125738117299368" datatype="html">
+        <source>Desarrollador web</source>
+        <target>Web Developer</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7467967706335052580" datatype="html">
+        <source>Descargar CV</source>
+        <target>Download CV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5346003088799674235" datatype="html">
+        <source> Nombre: <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;text&quot; name=&quot;from_name&quot; [(ngModel)]=&quot;model.from&quot; required placeholder=&quot;Nombre&quot; /&gt;"/></source>
+        <target> Name: <x id="TAG_INPUT" ctype="x-input"/></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8125624789834666520" datatype="html">
+        <source> Correo: <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;email&quot; name=&quot;reply_to&quot; [(ngModel)]=&quot;model.reply_to&quot; required placeholder=&quot;Correo&quot; /&gt;"/></source>
+        <target> Email: <x id="TAG_INPUT" ctype="x-input"/></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="1738923431200738780" datatype="html">
+        <source> Asunto: <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;text&quot; name=&quot;subject&quot; [(ngModel)]=&quot;model.title&quot; required placeholder=&quot;Asunto&quot; /&gt;"/></source>
+        <target> Subject: <x id="TAG_INPUT" ctype="x-input"/></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5445271142168044877" datatype="html">
+        <source> Mensaje: <x id="START_TAG_TEXTAREA" ctype="x-textarea"/><x id="CLOSE_TAG_TEXTAREA" ctype="x-textarea"/></source>
+        <target> Message: <x id="START_TAG_TEXTAREA" ctype="x-textarea"/><x id="CLOSE_TAG_TEXTAREA" ctype="x-textarea"/></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.html</context>
+          <context context-type="linenumber">49,53</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7708270344948043036" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ sending ? 'Enviando...' : 'Enviar' }}"/> </source>
+        <target> <x id="INTERPOLATION" equiv-text="{{ sending ? 'Sending...' : 'Send' }}"/> </target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="847724028546997054" datatype="html">
+        <source>Currículum</source>
+        <target>CurrIculum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="8025016720525572182" datatype="html">
+        <source>Formación</source>
+        <target>Education</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="777578125882371427" datatype="html">
+        <source>Desarrollo de Aplicaciones Multiplataformas</source>
+        <target>Multiplatform Application Development</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7653011064050062745" datatype="html">
+        <source>Aprendí Java, Kotlin, Android Studio, Python y Docker...</source>
+        <target>I learned Java, Kotlin, Android Studio, Python, and Docker, along with other tools, developing skills to create mobile and desktop applications, manage development environments, and adapt solutions to different requirements and platforms.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="4736201458856182017" datatype="html">
+        <source>Desarrollo de Aplicaciones Web</source>
+        <target>Web Application Development</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7203818350418408331" datatype="html">
+        <source>Aprendí Git, SQL, JavaScript, PHP...</source>
+        <target>I learned Git, SQL, JavaScript, PHP, HTML, and CSS, among other technologies, gaining knowledge in application design and structure, programming, and version control, which allowed me to develop full professional projects.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">29,31</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3839418929735297411" datatype="html">
+        <source>Experiencia</source>
+        <target>Experience</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="5232721925251453202" datatype="html">
+        <source>Desarrollé aplicaciones con Spring Boot...</source>
+        <target>I developed applications using Spring Boot and JavaScript, designed REST APIs, and worked with agile methodologies. I also resolved issues and implemented improvements following best practices.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="7003802067889075265" datatype="html">
+        <source>Creé un plugin de WordPress...</source>
+        <target>I created a WordPress plugin focused on security and shortcodes, and customized websites with Elementor. I applied clean code principles and performed testing to ensure good performance.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3310325896968595033" datatype="html">
+        <source>Habilidades de <x id="START_TAG_SPAN"/>Código<x id="CLOSE_TAG_SPAN"/></source>
+        <target>Code <x id="START_TAG_SPAN"/>Skills<x id="CLOSE_TAG_SPAN"/></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/curriculum/curriculum.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6234004276291657367" datatype="html">
+        <source>Portafolio</source>
+        <target>Portfolio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portafolio/portafolio.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portafolio/portafolio.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="1637021933477649400" datatype="html">
+        <source>Soy desarrollador de software...</source>
+        <target>I am a software developer with experience in Java, JavaScript/TypeScript, SQL, and Python. I enjoy taking on new challenges and constantly learning, whether by exploring new technologies or deepening my knowledge of those I already use. I also have experience with tools like Git and Jira, which have helped me work effectively in collaborative teams and agile environments.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">6,10</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2602826747524747895" datatype="html">
+        <source><x id="START_TAG_SPAN"/>Ubicación<x id="CLOSE_TAG_SPAN"/> Algeciras</source>
+        <target><x id="START_TAG_SPAN"/>Location<x id="CLOSE_TAG_SPAN"/> Algeciras</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3031988804038132157" datatype="html">
+        <source><x id="START_TAG_SPAN"/>Email<x id="CLOSE_TAG_SPAN"/> enriruiztirado11@gmail.com</source>
+        <target><x id="START_TAG_SPAN"/>Email<x id="CLOSE_TAG_SPAN"/> enriruiztirado11@gmail.com</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="110838476666075421" datatype="html">
+        <source><x id="START_TAG_SPAN"/>Telefono<x id="CLOSE_TAG_SPAN"/> 657825611</source>
+        <target><x id="START_TAG_SPAN"/>Phone<x id="CLOSE_TAG_SPAN"/> 657825611</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="1143216779761917828" datatype="html">
+        <source>He trabajado como Desarrollador Full Stack...</source>
+        <target>I have worked as a Full Stack Developer at Kimau and Baleària. At Kimau, I developed a WordPress plugin and customized pages using Elementor, applying clean code practices. At Baleària, I created applications with Spring Boot and JavaScript, designed REST APIs, and worked with agile methodologies using Jira and GitLab, resolving issues and improving features.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="6596653946137023415" datatype="html">
+        <source>En el ciclo de Desarrollo de Aplicaciones Multiplataforma...</source>
+        <target>In the Multiplatform Application Development program, I worked with Java, Kotlin, Android Studio, Python, and Docker, developing both mobile and desktop applications. This experience helped me understand different environments, work with containers, and apply best practices to create solutions adapted to various platforms.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2680266483863832030" datatype="html">
+        <source>En el ciclo de Desarrollo de Aplicaciones Web...</source>
+        <target>In the Web Application Development cycle, I strengthened my knowledge of Git, SQL, JavaScript, PHP, HTML, and CSS, developing complete projects that combined backend, frontend, and version control. This training allowed me to build functional, structured, and optimized web applications.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/sobre-mi/sobre-mi.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3441168249514097743" datatype="html">
+        <source>Lenguaje</source>
+        <target>Language</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

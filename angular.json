@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "portfolio-angular": {
+      "i18n": {
+        "sourceLocale": "es",
+        "locales": {
+          "en": "src/locale/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,9 +19,12 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "localize": true,
+            "i18nMissingTranslation": "error",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -31,6 +40,7 @@
           },
           "configurations": {
             "production": {
+              "outputHashing": "all",
               "budgets": [
                 {
                   "type": "initial",
@@ -43,7 +53,16 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "localize": ["es", "en"],
+              "baseHref": "/portfolio-angular/"
+            },
+            "es": {
+              "localize": ["es"],
+              "baseHref": "/portfolio-angular/es/"
+            },
+            "en": {
+              "localize": ["en"],
+              "baseHref": "/portfolio-angular/en/"
             },
             "development": {
               "optimization": false,
@@ -73,7 +92,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [

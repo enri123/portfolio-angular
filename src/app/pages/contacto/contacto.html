@@ -1,5 +1,5 @@
 <div class="contenido">
-  <h2 class="titulo">Contacto</h2>
+  <h2 class="titulo" i18n>Contacto</h2>
   <div class="datos">
     <div class="botones">
       <a href="https://maps.app.goo.gl/uEHv49gQw9gEmHMc6" target="_blank">
@@ -30,27 +30,27 @@
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       <form (ngSubmit)="sendEmail()" #contactForm="ngForm">
-        <label>
+        <label i18n>
           Nombre:
           <input type="text" name="from_name" [(ngModel)]="model.from" required placeholder="Nombre" />
         </label>
 
-        <label>
+        <label i18n>
           Correo:
           <input type="email" name="reply_to" [(ngModel)]="model.reply_to" required placeholder="Correo" />
         </label>
 
-        <label>
+        <label i18n>
           Asunto:
           <input type="text" name="subject" [(ngModel)]="model.title" required placeholder="Asunto" />
         </label>
 
-        <label>
+        <label i18n>
           Mensaje:
           <textarea name="message" [(ngModel)]="model.message" required placeholder="Mensaje"></textarea>
         </label>
 
-        <button class="boton_form" type="submit" [disabled]="sending">
+        <button i18n class="boton_form" type="submit" [disabled]="sending">
           {{ sending ? 'Enviando...' : 'Enviar' }}
         </button>
 
