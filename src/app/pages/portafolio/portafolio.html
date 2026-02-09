@@ -1,29 +1,46 @@
 <div class="contenido">
     <h2 i18n>Proyectos Personales</h2>
+    <div class="checkboxes">
+        <div class="parte">
+            <input type="checkbox" id="backend" name="backend" value="backend" checked (click)="currentCheckbox('backend')">
+            <label for="backend">Backend</label>
+            <input type="checkbox" id="frontend" name="frontend" value="frontend" checked (click)="currentCheckbox('frontend')">
+            <label for="frontend">Frontend</label>
+            <input type="checkbox" id="full-stack" name="full-stack" value="full-stack" checked (click)="currentCheckbox('full-stack')">
+            <label for="full-stack">Full Stack</label>
+            <input type="checkbox" id="desktop-app" name="desktop-app" value="desktop-app" checked (click)="currentCheckbox('desktop-app')">
+            <label for="desktop-app">Destock app</label>
+        </div>
+
+        <div class="lenguaje">
+            <input type="checkbox" id="angular" name="angular" value="angular" checked (click)="currentCheckbox('angular')">
+            <label for="angular">Angular</label>
+            <input type="checkbox" id="python" name="python" value="python" checked (click)="currentCheckbox('python')">
+            <label for="python">Python</label>
+        </div>
+
+    </div>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col text-center">
+        <div class="col text-center python full-stack">
             <div class="project-card reveal">
                 <a href="https://github.com/enri123/Web_Scraping" target="_blank">
-                    <img src="Web_Scraper.png" alt="Web Scraping" 
-                        class="img-fluid mt-2" loading="lazy" />
+                    <img src="Web_Scraper.png" alt="Web Scraping" class="img-fluid mt-2" loading="lazy" />
                 </a>
             </div>
             <h5>Web Scraping</h5>
         </div>
-        <div class="col text-center">
+        <div class="col text-center python desktop-app">
             <div class="project-card reveal">
                 <a href="https://github.com/enri123/Bananas" target="_blank">
-                    <img src="Captura.png" alt="Bananas" 
-                        class="img-fluid mt-2" loading="lazy" />
+                    <img src="Captura.png" alt="Bananas" class="img-fluid mt-2" loading="lazy" />
                 </a>
             </div>
             <h5>Bananas</h5>
         </div>
-        <div class="col text-center">
+        <div class="col text-center angular frontend">
             <div class="project-card reveal">
                 <a href="https://github.com/enri123/portfolio-angular" target="_blank">
-                    <img i18n-alt src="Portafolio.png" alt="Portafolio" 
-                        class="img-fluid mt-2" loading="lazy" />
+                    <img i18n-alt src="Portafolio.png" alt="Portafolio" class="img-fluid mt-2" loading="lazy" />
                 </a>
 
             </div>

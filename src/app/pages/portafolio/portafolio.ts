@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class Portafolio {
 
+  public currentCheckbox(option: string){
+  const elementos = document.getElementsByClassName(option);
+  Array.from(elementos).forEach((el) => {
+    el.classList.toggle('oculto');
+  })
+    console.log(option);
+  }
 }
