@@ -5,7 +5,7 @@
 
       <trans-unit id="3697125738117299368" datatype="html">
         <source>Desarrollador web</source>
-        <target>Web Developer</target>
+        <target>Software Developer</target>
       </trans-unit>
 
       <trans-unit id="7467967706335052580" datatype="html">
@@ -40,7 +40,7 @@
 
       <trans-unit id="7708270344948043036" datatype="html">
         <source> <x id="INTERPOLATION"/> </source>
-        <target> <x id="INTERPOLATION" equiv-text="{{ sending ? 'Sending...' : 'Send' }}"/> </target>
+        <target> <x id="INTERPOLATION"/> </target>
       </trans-unit>
 
       <trans-unit id="847724028546997054" datatype="html">
@@ -55,44 +55,22 @@
 
       <trans-unit id="1003512127973314244" datatype="html">
         <source>Máster Zero Day</source>
-        <target>Zero Day Master</target>
+        <target>Zero Day Master's Program</target>
       </trans-unit>
 
-      <trans-unit id="1952537778260199134" datatype="html">
-        <source>
-          Formación en ciberseguridad ofensiva actualmente en curso. Enfoque práctico orientado a entornos reales.
-          Estudio de redes y protocolos de comunicación. Uso de Linux y Bash aplicado a seguridad.
-          Administración y seguridad en sistemas Windows. Hacking ético en entornos controlados.
-          Análisis OSINT para recolección de información. Ingeniería social desde enfoque defensivo.
-          Explotación de vulnerabilidades en aplicaciones. Introducción a Bug Bounty.
-          Fundamentos de seguridad en entornos cloud. Aprendizaje continuo mediante laboratorios prácticos.
-        </source>
-        <target>
-          Offensive cybersecurity training currently in progress. Practical approach focused on real-world environments.
-          Study of networks and communication protocols. Use of Linux and Bash applied to security.
-          Administration and security of Windows systems. Ethical hacking in controlled environments.
-          OSINT analysis for information gathering. Social engineering from a defensive perspective.
-          Exploitation of application vulnerabilities. Introduction to Bug Bounty.
-          Fundamentals of cloud security. Continuous learning through hands-on labs.
-        </target>
+      <trans-unit id="2793412084128073" datatype="html">
+        <source> Formación en ciberseguridad ofensiva actualmente en curso. Enfoque práctico orientado a entornos reales. Estudio de redes y protocolos de comunicación. Uso de Linux y Bash aplicado a seguridad. Administración y seguridad en sistemas Windows. Hacking ético en entornos controlados. Análisis OSINT para recolección de información. Ingeniería social desde enfoque defensivo. Explotación de vulnerabilidades en aplicaciones. Introducción a Bug Bounty. Fundamentos de seguridad en entornos cloud. Aprendizaje continuo mediante laboratorios prácticos. </source>
+        <target> Currently pursuing training in offensive cybersecurity. Practical, hands-on approach focused on real-world environments. Study of networking and communication protocols. Linux and Bash applied to security. Windows system administration and security. Ethical hacking in controlled environments. OSINT for information gathering. Defensive social engineering. Exploitation of application vulnerabilities. Introduction to Bug Bounty. Fundamentals of cloud security. Continuous learning through hands-on labs. </target>
       </trans-unit>
 
       <trans-unit id="777578125882371427" datatype="html">
         <source>Desarrollo de Aplicaciones Multiplataformas</source>
-        <target>Multiplatform Application Development</target>
+        <target>Cross-Platform Application Development</target>
       </trans-unit>
 
-      <trans-unit id="7653011064050062745" datatype="html">
-        <source>
-          Aprendí Java, Kotlin, Android Studio, Python y Docker, junto con otras herramientas,
-          desarrollando habilidades para crear aplicaciones móviles y de escritorio,
-          gestionar entornos de desarrollo y adaptar soluciones a distintos requisitos y plataformas.
-        </source>
-        <target>
-          I learned Java, Kotlin, Android Studio, Python and Docker, along with other tools,
-          developing skills to create mobile and desktop applications,
-          manage development environments and adapt solutions to different requirements and platforms.
-        </target>
+      <trans-unit id="8695920016623395480" datatype="html">
+        <source> Aprendí Java, Kotlin, Android Studio, Python y Docker, junto con otras herramientas, desarrollando habilidades para crear aplicaciones móviles y de escritorio, gestionar entornos de desarrollo y adaptar soluciones a distintos requisitos y plataformas. </source>
+        <target> I learned Java, Kotlin, Android Studio, Python, and Docker, along with other technologies, developing the skills to build mobile and desktop applications, manage development environments, and adapt solutions to different requirements and platforms. </target>
       </trans-unit>
 
       <trans-unit id="4736201458856182017" datatype="html">
@@ -100,17 +78,9 @@
         <target>Web Application Development</target>
       </trans-unit>
 
-      <trans-unit id="7203818350418408331" datatype="html">
-        <source>
-          Aprendí Git, SQL, JavaScript, PHP, HTML y CSS, entre otras tecnologías,
-          adquiriendo conocimientos tanto en el diseño y la estructura de aplicaciones
-          como en la programación y el control de versiones.
-        </source>
-        <target>
-          I learned Git, SQL, JavaScript, PHP, HTML and CSS, among other technologies,
-          gaining knowledge in both application design and structure,
-          as well as programming and version control.
-        </target>
+      <trans-unit id="1142155599521100956" datatype="html">
+        <source> Aprendí Git, SQL, JavaScript, PHP, HTML y CSS, entre otras tecnologías, adquiriendo conocimientos tanto en el diseño y la estructura de aplicaciones como en la programación y el control de versiones, lo que me permitió desarrollar proyectos completos de forma profesional. </source>
+        <target> I learned Git, SQL, JavaScript, PHP, HTML, and CSS, among other technologies, gaining expertise in application design, architecture, programming, and version control, enabling me to develop complete professional projects. </target>
       </trans-unit>
 
       <trans-unit id="3839418929735297411" datatype="html">
@@ -118,31 +88,19 @@
         <target>Experience</target>
       </trans-unit>
 
-      <trans-unit id="5232721925251453202" datatype="html">
-        <source>
-          Desarrollé aplicaciones con Spring Boot y JavaScript, diseñando APIs REST
-          y trabajando con metodologías ágiles.
-        </source>
-        <target>
-          I developed applications using Spring Boot and JavaScript, designing REST APIs
-          and working with agile methodologies.
-        </target>
+      <trans-unit id="4908682344994995511" datatype="html">
+        <source> Desarrollé aplicaciones con Spring Boot y JavaScript, diseñando APIs REST y trabajando con metodologías ágiles. También resolví incidencias y realicé mejoras siguiendo buenas prácticas. </source>
+        <target> I developed applications using Spring Boot and JavaScript, designed REST APIs, and worked with Agile methodologies. I also resolved issues and implemented improvements following software development best practices. </target>
       </trans-unit>
 
-      <trans-unit id="7003802067889075265" datatype="html">
-        <source>
-          Creé un plugin de WordPress orientado a seguridad y shortcodes,
-          y personalicé sitios con Elementor.
-        </source>
-        <target>
-          I created a WordPress plugin focused on security and shortcodes,
-          and customized websites using Elementor.
-        </target>
+      <trans-unit id="2913093274529916034" datatype="html">
+        <source> Creé un plugin de WordPress orientado a seguridad y shortcodes, y personalicé sitios con Elementor. Apliqué código limpio y realicé pruebas para asegurar un buen rendimiento. </source>
+        <target> I developed a WordPress plugin focused on security and shortcodes, customized websites with Elementor, applied clean code principles, and performed testing to ensure high performance. </target>
       </trans-unit>
 
       <trans-unit id="3310325896968595033" datatype="html">
-        <source>Habilidades de <x id="START_TAG_SPAN"/>Código<x id="CLOSE_TAG_SPAN"/></source>
-        <target><x id="START_TAG_SPAN"/>Code<x id="CLOSE_TAG_SPAN"/> Skills</target>
+        <source>Habilidades de <x id="START_TAG_SPAN" ctype="x-span"/>Código<x id="CLOSE_TAG_SPAN" ctype="x-span"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span"/>Coding<x id="CLOSE_TAG_SPAN" ctype="x-span"/> Skills</target>
       </trans-unit>
 
       <trans-unit id="9029774994601298293" datatype="html">
@@ -160,71 +118,46 @@
         <target>About Me</target>
       </trans-unit>
 
-      <trans-unit id="1637021933477649400" datatype="html">
-        <source>
-          Soy desarrollador de software con experiencia en Java, JavaScript/TypeScript,
-          SQL y Python. Me gusta enfrentarme a nuevos retos y aprender constantemente.
-        </source>
-        <target>
-        I am a software developer with experience in Java, JavaScript/TypeScript, SQL, and Python. I enjoy facing new challenges and learning constantly, 
-        whether exploring new technologies or deepening my knowledge of existing ones. I also have experience working with tools like Git and Jira, which has helped me perform well 
-        in collaborative teams and agile environments.
-        </target>
+      <trans-unit id="6182448181573216070" datatype="html">
+        <source> Soy desarrollador de software con experiencia en Java, JavaScript/TypeScript, SQL y Python. Me gusta enfrentarme a nuevos retos y aprender constantemente, ya sea explorando nuevas tecnologías o profundizando en las que ya conozco. También tengo experiencia trabajando con herramientas como Git y Jira, lo que me ha ayudado a desenvolverme bien en equipos colaborativos y entornos ágiles. </source>
+        <target> I am a Software Developer with experience in Java, JavaScript/TypeScript, SQL, and Python. I enjoy taking on new challenges and continuously learning, whether by exploring new technologies or deepening my expertise in those I already know. I also have experience using tools such as Git and Jira, which has enabled me to work effectively in collaborative teams and Agile environments. </target>
       </trans-unit>
 
       <trans-unit id="2602826747524747895" datatype="html">
-        <source><x id="START_TAG_SPAN"/>Ubicación<x id="CLOSE_TAG_SPAN"/> Algeciras</source>
-        <target><x id="START_TAG_SPAN"/>Location<x id="CLOSE_TAG_SPAN"/> Algeciras</target>
+        <source><x id="START_TAG_SPAN" ctype="x-span"/>Ubicación<x id="CLOSE_TAG_SPAN" ctype="x-span"/> Algeciras</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span"/>Location<x id="CLOSE_TAG_SPAN" ctype="x-span"/> Algeciras</target>
       </trans-unit>
 
       <trans-unit id="3031988804038132157" datatype="html">
-        <source><x id="START_TAG_SPAN"/>Email<x id="CLOSE_TAG_SPAN"/> enriruiztirado11@gmail.com</source>
-        <target><x id="START_TAG_SPAN"/>Email<x id="CLOSE_TAG_SPAN"/> enriruiztirado11@gmail.com</target>
+        <source><x id="START_TAG_SPAN" ctype="x-span"/>Email<x id="CLOSE_TAG_SPAN" ctype="x-span"/> enriruiztirado11@gmail.com</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span"/>Email<x id="CLOSE_TAG_SPAN" ctype="x-span"/> enriruiztirado11@gmail.com</target>
       </trans-unit>
 
       <trans-unit id="110838476666075421" datatype="html">
-        <source><x id="START_TAG_SPAN"/>Telefono<x id="CLOSE_TAG_SPAN"/> 657825611</source>
-        <target><x id="START_TAG_SPAN"/>Phone<x id="CLOSE_TAG_SPAN"/> 657825611</target>
+        <source><x id="START_TAG_SPAN" ctype="x-span"/>Telefono<x id="CLOSE_TAG_SPAN" ctype="x-span"/> 657825611</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span"/>Phone<x id="CLOSE_TAG_SPAN" ctype="x-span"/> 657825611</target>
       </trans-unit>
 
-      <trans-unit id="1143216779761917828" datatype="html">
-        <source>
-          He trabajado como Desarrollador Full Stack en Kimau y Baleària.
-        </source>
-        <target>
-              I have worked as a Full Stack Developer at Kimau and Baleària. At Kimau, I developed a WordPress plugin and customized pages using Elementor while applying clean code principles. At Baleària, I built applications with Spring Boot and JavaScript, designed REST APIs, and worked with agile methodologies using Jira and GitLab, resolving issues and improving functionalities.
-        </target>
+      <trans-unit id="4413960590198760995" datatype="html">
+        <source> He trabajado como Desarrollador Full Stack en Kimau y Baleària. En Kimau desarrollé un plugin de WordPress y personalicé páginas con Elementor aplicando código limpio. En Baleària creé aplicaciones con Spring Boot y JavaScript, diseñé APIs REST y trabajé con metodologías ágiles usando Jira y GitLab, resolviendo incidencias y mejorando funcionalidades. </source>
+        <target> I have worked as a Full Stack Developer at Kimau and Baleària. At Kimau, I developed a WordPress plugin and customized websites using Elementor while applying clean code principles. At Baleària, I developed applications with Spring Boot and JavaScript, designed REST APIs, and worked in Agile environments using Jira and GitLab, resolving issues and improving existing features. </target>
       </trans-unit>
 
-      <trans-unit id="2492693605188644632" datatype="html">
-        <source>
-          En la formación en ciberseguridad ofensiva, actualmente en curso...
-        </source>
-        <target>
-          In the offensive cybersecurity training program, currently in progress, I am gaining hands-on experience focused on real-world environments, studying networks and communication protocols, using Linux and Bash for security purposes, and managing and securing Windows systems. Additionally, I work with ethical hacking in controlled environments, OSINT analysis, social engineering from a defensive perspective, vulnerability exploitation in applications, Bug Bounty fundamentals, and security foundations in cloud environments, reinforcing continuous learning through practical labs.
-        </target>
+      <trans-unit id="7488475766740003398" datatype="html">
+        <source> En la formación en ciberseguridad ofensiva, actualmente en curso, estoy adquiriendo conocimientos prácticos orientados a entornos reales, estudiando redes y protocolos de comunicación, el uso de Linux y Bash aplicado a seguridad, y la administración y protección de sistemas Windows. Además, trabajo con hacking ético en entornos controlados, análisis OSINT, ingeniería social desde un enfoque defensivo, explotación de vulnerabilidades en aplicaciones, fundamentos de Bug Bounty y seguridad en entornos cloud, reforzando el aprendizaje continuo mediante laboratorios prácticos. </source>
+        <target> Through my ongoing offensive cybersecurity training, I am gaining practical, hands-on experience in real-world scenarios. I am studying networking and communication protocols, Linux and Bash for security, and Windows administration and security. Additionally, I am working with ethical hacking in controlled environments, OSINT, defensive social engineering, application vulnerability exploitation, Bug Bounty fundamentals, and cloud security, while continuously strengthening my skills through hands-on labs. </target>
       </trans-unit>
 
-      <trans-unit id="6596653946137023415" datatype="html">
-        <source>
-          En el ciclo de Desarrollo de Aplicaciones Multiplataforma trabajé con Java...
-        </source>
-        <target>
-          In the Multiplatform Application Development program, I worked with Java, Kotlin, Android Studio, Python, and Docker, developing both mobile and desktop applications. This learning experience helped me understand different environments, use containers, and apply best practices to create solutions adapted to multiple platforms.
-        </target>
+      <trans-unit id="4367584731338961198" datatype="html">
+        <source> En el ciclo de Desarrollo de Aplicaciones Multiplataforma trabajé con Java, Kotlin, Android Studio, Python y Docker, desarrollando aplicaciones tanto móviles como de escritorio. Este aprendizaje me ayudó a comprender diferentes entornos, usar contenedores y aplicar buenas prácticas para crear soluciones adaptadas a varias plataformas. </source>
+        <target> During my Cross-Platform Application Development studies, I worked with Java, Kotlin, Android Studio, Python, and Docker to build both mobile and desktop applications. This experience helped me understand different development environments, use containers, and apply best practices to create solutions for multiple platforms. </target>
       </trans-unit>
 
-      <trans-unit id="2680266483863832030" datatype="html">
-        <source>
-          En el ciclo de Desarrollo de Aplicaciones Web reforcé mis conocimientos...
-        </source>
-        <target>
-              In the Web Application Development program, I strengthened my knowledge of Git, SQL, JavaScript, PHP, HTML, and CSS by developing complete projects that combined backend, frontend, and version control. This training enabled me to create functional, well-structured, and optimized web applications.
-        </target>
+      <trans-unit id="2148750480239372117" datatype="html">
+        <source> En el ciclo de Desarrollo de Aplicaciones Web reforcé mis conocimientos en Git, SQL, JavaScript, PHP, HTML y CSS, desarrollando proyectos completos combinando backend, frontend y control de versiones. Esta formación me permitió crear aplicaciones web funcionales, estructuradas y optimizadas. </source>
+        <target> During my Web Application Development studies, I strengthened my skills in Git, SQL, JavaScript, PHP, HTML, and CSS by developing complete projects that combined backend, frontend, and version control. This training enabled me to build functional, well-structured, and optimized web applications. </target>
       </trans-unit>
 
     </body>
   </file>
 </xliff>
-
-
