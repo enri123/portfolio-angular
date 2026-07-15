@@ -28,10 +28,21 @@ export class Toolbar {
     return language.code
   }
 
-  public changeLanguage(newLanguage: string): void {
-    if (this.currentLanguage === newLanguage) return;
+public changeLanguage(newLanguage: string): void {
 
-    const baseUrl = window.location.origin;
-    window.location.href = `${baseUrl}/portfolio-angular/${newLanguage}/`;
+  if (this.currentLanguage === newLanguage) return;
+
+  // GitHub Pages
+  if (window.location.hostname === 'enri123.github.io') {
+    window.location.href = `${window.location.origin}/portfolio-angular/${newLanguage}/`;
+    return;
   }
+
+  // Docker / Nginx / Servidor propio
+  const url = new URL(window.location.href);
+
+  url.pathname = url.pathname.replace(/\/(es|en)(?=\/|$)/, `/${newLanguage}`);
+
+  window.location.href = url.toString();
+}
 }

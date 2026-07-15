@@ -36,6 +36,12 @@ if ($useDocsFolder -eq $true) {
 
     Copy-Item "$distPath\es\index.html" "$docsPath\index.html" -Force
 
+    Write-Host "Creando 404.html para soportar rutas SPA..." -ForegroundColor Yellow
+Copy-Item "$docsPath\index.html" "$docsPath\404.html" -Force
+Copy-Item "$docsPath\es\index.html" "$docsPath\es\404.html" -Force
+Copy-Item "$docsPath\en\index.html" "$docsPath\en\404.html" -Force
+
+
     Write-Host "Añadiendo .nojekyll..." -ForegroundColor Yellow
     New-Item -Path "$docsPath\.nojekyll" -ItemType File | Out-Null
 
