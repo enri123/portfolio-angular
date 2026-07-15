@@ -69,13 +69,7 @@ Los artefactos compilados se guardarán en el directorio `dist/`.
 
 ### Testing
 
-```bash
-# Ejecutar pruebas unitarias
-npm test
-
-# Generar reporte de cobertura
-npm run test -- --code-coverage
-```
+El repositorio tiene incluidas una serie de pruebas CI/CD en el archivo ci.yml, para comprobar su correcto funcionamiento al momento de mandarlo al repositorio.
 
 ---
 
