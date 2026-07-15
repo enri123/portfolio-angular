@@ -15,8 +15,7 @@ interface Language {
   styleUrl: './toolbar.css',
 })
 export class Toolbar {
-
-  private readonly locale = inject(LOCALE_ID)
+  private readonly locale = inject(LOCALE_ID);
 
   public readonly languages: Language[] = [
     { name: 'es', code: 'es' },
@@ -24,25 +23,24 @@ export class Toolbar {
   ];
 
   get currentLanguage(): string {
-    const language = this.languages.find(Lang => Lang.code === this.locale) || this.languages[0];
-    return language.code
+    const language = this.languages.find((Lang) => Lang.code === this.locale) || this.languages[0];
+    return language.code;
   }
 
-public changeLanguage(newLanguage: string): void {
+  public changeLanguage(newLanguage: string): void {
+    if (this.currentLanguage === newLanguage) return;
 
-  if (this.currentLanguage === newLanguage) return;
+    // GitHub Pages
+    if (window.location.hostname === 'enri123.github.io') {
+      window.location.href = `${window.location.origin}/portfolio-angular/${newLanguage}/`;
+      return;
+    }
 
-  // GitHub Pages
-  if (window.location.hostname === 'enri123.github.io') {
-    window.location.href = `${window.location.origin}/portfolio-angular/${newLanguage}/`;
-    return;
+    // Docker / Nginx / Servidor propio
+    const url = new URL(window.location.href);
+
+    url.pathname = url.pathname.replace(/\/(es|en)(?=\/|$)/, `/${newLanguage}`);
+
+    window.location.href = url.toString();
   }
-
-  // Docker / Nginx / Servidor propio
-  const url = new URL(window.location.href);
-
-  url.pathname = url.pathname.replace(/\/(es|en)(?=\/|$)/, `/${newLanguage}`);
-
-  window.location.href = url.toString();
-}
 }

@@ -1,11 +1,10 @@
-.bandera{
-    height: 50px;
+.bandera {
+  height: 50px;
 }
 
-button{
-    padding-right: 10px;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-
+button {
+  padding-right: 10px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
 }

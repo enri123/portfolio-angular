@@ -57,7 +57,7 @@ h3 {
 
 /* Línea vertical del timeline */
 .linea-separador::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 14px; /* justo debajo del círculo */
   left: 50%;
@@ -77,8 +77,9 @@ h3 {
   margin-bottom: 5px;
 }
 
-.anio, .empresa, .titulo-estudio{
+.anio,
+.empresa,
+.titulo-estudio {
   color: black;
-    margin-bottom: 5px;
-
+  margin-bottom: 5px;
 }

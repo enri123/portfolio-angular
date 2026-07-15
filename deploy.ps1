@@ -2,7 +2,6 @@
 # VARIABLES DE CONFIGURACIÓN
 # ================================
 $repo = "https://github.com/enri123/portfolio-angular.git"
-$branch = "gh-pages"
 $projectName = "portfolio-angular"
 $distPath = ".\dist\$projectName\browser"
 $useDocsFolder = $true     # true = publica en /docs 
@@ -37,9 +36,9 @@ if ($useDocsFolder -eq $true) {
     Copy-Item "$distPath\es\index.html" "$docsPath\index.html" -Force
 
     Write-Host "Creando 404.html para soportar rutas SPA..." -ForegroundColor Yellow
-Copy-Item "$docsPath\index.html" "$docsPath\404.html" -Force
-Copy-Item "$docsPath\es\index.html" "$docsPath\es\404.html" -Force
-Copy-Item "$docsPath\en\index.html" "$docsPath\en\404.html" -Force
+    Copy-Item "$docsPath\index.html" "$docsPath\404.html" -Force
+    Copy-Item "$docsPath\es\index.html" "$docsPath\es\404.html" -Force
+    Copy-Item "$docsPath\en\index.html" "$docsPath\en\404.html" -Force
 
 
     Write-Host "Añadiendo .nojekyll..." -ForegroundColor Yellow

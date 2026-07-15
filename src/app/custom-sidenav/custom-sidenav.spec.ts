@@ -8,9 +8,8 @@ describe('CustomSidenav', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CustomSidenav]
-    })
-    .compileComponents();
+      imports: [CustomSidenav],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(CustomSidenav);
     component = fixture.componentInstance;

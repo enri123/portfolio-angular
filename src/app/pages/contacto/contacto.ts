@@ -8,15 +8,15 @@ interface EmailForm {
   reply_to: string;
   title: string;
   message: string;
-  [key: string]: unknown; 
+  [key: string]: unknown;
 }
 
 @Component({
   selector: 'app-contacto',
-  standalone: true, 
+  standalone: true,
   imports: [FormsModule, MatIconModule],
   templateUrl: './contacto.html',
-  styleUrls: ['./contacto.css'], 
+  styleUrls: ['./contacto.css'],
 })
 export class Contacto {
   private readonly SERVICE_ID = 'service_p7sanii';
@@ -28,13 +28,12 @@ export class Contacto {
     from: '',
     reply_to: '',
     title: '',
-    message: ''
+    message: '',
   };
 
   sending = false;
   successMsg = '';
   errorMsg = '';
-  
 
   async sendEmail() {
     this.successMsg = '';
@@ -53,7 +52,7 @@ export class Contacto {
         this.SERVICE_ID,
         this.TEMPLATE_ID,
         this.model,
-        this.PUBLIC_KEY
+        this.PUBLIC_KEY,
       );
 
       if (result.status === 200) {

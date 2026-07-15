@@ -27,4 +27,6 @@ jobs:
       - name: Construir imagen Docker
         run: docker build -t portfolio-angular .
       
+      - name: Check formatting
+        run: npm run format:check
 

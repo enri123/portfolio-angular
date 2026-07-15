@@ -3,37 +3,36 @@ import { SobreMi } from './pages/sobre-mi/sobre-mi';
 import { Portafolio } from './pages/portafolio/portafolio';
 import { Curriculum } from './pages/curriculum/curriculum';
 import { Contacto } from './pages/contacto/contacto';
-import { Home } from './pages/home/home'
-
+import { Home } from './pages/home/home';
 
 export const routes: Routes = [
-  { 
+  {
     path: '',
     redirectTo: 'home',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'home',
-    component: Home
+    component: Home,
   },
   {
     path: 'sobre-mi',
-    component: SobreMi
+    component: SobreMi,
   },
   {
     path: 'curriculum',
-    component: Curriculum
+    component: Curriculum,
   },
   {
     path: 'portafolio',
-    component: Portafolio
+    component: Portafolio,
   },
   {
     path: 'contacto',
-    component: Contacto
+    component: Contacto,
   },
   {
     path: '**',
-    redirectTo: 'home'
-  }
+    redirectTo: 'home',
+  },
 ];
