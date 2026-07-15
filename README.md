@@ -1,6 +1,6 @@
 # 🚀 Portfolio Angular
 
-Un portafolio profesional moderno construido con **Angular 20**, diseñado para mostrar proyectos, habilidades y experiencia de forma interactiva y responsiva.
+Un portafolio profesional moderno construido con **Angular 20**, diseñado para mostrar proyectos, habilidades y experiencia.
 
 **🌐 [Ver en vivo](https://enri123.github.io/portfolio-angular/)**
 
@@ -24,16 +24,9 @@ Un portafolio profesional moderno construido con **Angular 20**, diseñado para 
 | **Angular** | 20.3.0 | Framework principal |
 | **TypeScript** | 5.9.2 | Lenguaje de programación |
 | **Angular Material** | 20.2.12 | Componentes de UI |
-| **RxJS** | 7.8.0 | Programación reactiva |
 | **ngx-translate** | 16.0.4 | Internacionalización |
 | **EmailJS** | 4.4.1 | Servicio de correos |
 | **SCSS** | - | Estilos avanzados |
-
-### Composición del Proyecto
-- **HTML**: 44.5%
-- **TypeScript**: 28.7%
-- **CSS/SCSS**: 18.7%
-- **Otros**: 8.1%
 
 ---
 
@@ -139,50 +132,10 @@ npm run build
 
 El formulario de contacto utiliza **EmailJS** para enviar mensajes directamente. Asegúrate de configurar tus credenciales de EmailJS en el servicio correspondiente.
 
----
-
-## 🎯 Características Futuras
-
-- [ ] Animaciones mejoradas
-- [ ] Modo oscuro
-- [ ] Blog o sección de artículos
-- [ ] Carrito de proyectos descargables
-- [ ] Integración con GitHub API
-- [ ] Testimonios y reseñas
-
----
-
-## 📜 Licencia
-
-Este proyecto está disponible bajo la licencia **MIT**. Siéntete libre de usar, modificar y distribuir este código.
-
----
 
 ## 👨‍💻 Autor
 
 **Enri123** - [@enri123](https://github.com/enri123)
 
----
-
-## 🙌 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes sugerencias o encuentras bugs:
-
-1. Fork el proyecto
-2. Crea una rama (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
----
-
-## 📞 Soporte
-
-Si tienes preguntas o necesitas ayuda, puedes:
-- Abrir un [Issue](https://github.com/enri123/portfolio-angular/issues)
-- Enviar un mensaje a través del formulario de contacto en el portafolio
-- Contactar directamente en GitHub
-
----
 
 **⭐ Si este proyecto te fue útil, considera dejar una estrella!**
