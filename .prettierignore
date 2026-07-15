@@ -9,6 +9,6 @@ package-lock.json
 
 *.min.js
 
-.html
+*.html
 
-.md
+*.md
