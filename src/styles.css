@@ -1,4 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --page-background: #f5f7fa;
+  --accent: #00bcd4;
+  --accent-dark: #0097a7;
+  --surface: #ffffff;
+  --text: #333333;
+  --muted-text: #777777;
+  --border: #d1d1d1;
+}
+
+html[data-style='2'] {
+  color-scheme: dark;
+  --page-background: #121820;
+  --accent: #38bdf8;
+  --accent-dark: #0284c7;
+  --surface: #1e293b;
+  --text: #e2e8f0;
+  --muted-text: #94a3b8;
+  --border: #475569;
+}
+
+html[data-style='3'] {
+  color-scheme: light;
+  --page-background: #f3f0e8;
+  --accent: #d05a3a;
+  --accent-dark: #9f3f2b;
+  --surface: #fffaf0;
+  --text: #3d3028;
+  --muted-text: #78675b;
+  --border: #d8c7b7;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +44,22 @@ body {
 body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: var(--page-background);
+  color: var(--text);
+}
+
+html[data-style='2'] mat-toolbar,
+html[data-style='2'] mat-sidenav,
+html[data-style='3'] mat-toolbar,
+html[data-style='3'] mat-sidenav {
+  background-color: var(--surface);
+  color: var(--text);
 }
 
 /* Nombre principal */
 h1 {
   font-size: 3em;
-  color: #333;
+  color: var(--text);
 }
 h2 {
   margin-bottom: 1em;
@@ -29,23 +70,23 @@ h3 {
 }
 /* Subtítulo (ocupación) */
 h4 {
-  color: #777;
+  color: var(--muted-text);
   margin-top: 10px;
   font-weight: normal;
 }
 
 i {
   font-size: large;
-  color: #00c0e0;
+  color: var(--accent);
   margin-bottom: 7px;
 }
 
 span {
-  color: #00c0e0;
+  color: var(--accent);
 }
 
 p {
-  color: #a3a3a3;
+  color: var(--muted-text);
 }
 
 .contenido {

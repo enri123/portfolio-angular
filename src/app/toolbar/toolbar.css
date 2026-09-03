@@ -8,3 +8,13 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
+.selector-estilo {
+  margin-left: auto;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--text);
+  cursor: pointer;
+}

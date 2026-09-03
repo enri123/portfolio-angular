@@ -1,6 +1,35 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+mat-nav-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+}
+
 .enlace-boton:hover {
-  background-color: #00bcd4;
+  background-color: var(--accent);
 }
 .enlace-boton.active {
-  background-color: #00bcd4;
+  background-color: var(--accent);
+}
+
+.enlace-boton {
+  flex: 1 1 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+.enlace-boton mat-icon {
+  display: block !important;
+  width: 100% !important;
+  text-align: center;
+  margin: 0 !important;
 }

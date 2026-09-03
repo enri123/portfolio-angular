@@ -1,8 +1,19 @@
-<mat-toolbar style="background: #f5f7fa">
+<mat-toolbar style="background-color: transparent; width: 100%">
   <button (click)="changeLanguage('es')">
     <img src="espana.png" alt="Lenguaje" class="bandera" />
   </button>
   <button (click)="changeLanguage('en')">
     <img src="reino-unido.png" alt="Lenguaje" class="bandera" />
   </button>
+
+  <select
+    class="selector-estilo"
+    aria-label="Estilo de página"
+    [value]="selectedStyle"
+    (change)="changeStyle($event)"
+  >
+    <option value="1">Estilo 1</option>
+    <option value="2">Estilo 2</option>
+    <option value="3">Estilo 3</option>
+  </select>
 </mat-toolbar>

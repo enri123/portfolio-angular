@@ -1,5 +1,5 @@
 h3 {
-  color: black;
+  color: var(--text);
 }
 
 .contenedor-cv {
@@ -25,7 +25,7 @@ h3 {
 .columna-izq {
   width: 20%;
   text-align: end;
-  border-color: gainsboro;
+  border-color: var(--border);
   border-right-width: 1px;
 }
 
@@ -34,7 +34,7 @@ h3 {
 }
 
 .centro {
-  color: #d1d1d1;
+  color: var(--muted-text);
 }
 
 .item-formacion,
@@ -47,12 +47,25 @@ h3 {
 /* Punto del timeline */
 .linea-separador {
   width: 14px;
-  height: 14px;
-  background-color: white;
-  border: 3px solid #00c0e0;
-  border-radius: 50%;
+  min-height: 14px;
+  align-self: stretch;
   margin: 5px 10px;
   position: relative;
+}
+
+/* Punto del timeline */
+.linea-separador::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-color: var(--surface);
+  border: 3px solid var(--accent);
+  border-radius: 50%;
+  box-sizing: border-box;
+  z-index: 2;
 }
 
 /* Línea vertical del timeline */
@@ -63,14 +76,14 @@ h3 {
   left: 50%;
   transform: translateX(-50%);
   width: 3px;
-  height: calc(100% + 110px); /* ajusta según separación */
-  background-color: #00c0e0;
+  height: calc(100% - 14px);
+  background-color: var(--accent);
   z-index: 1;
 }
 
 .detalle-estudio,
 .detalle-experiencia {
-  color: #a3a3a3;
+  color: var(--muted-text);
 }
 
 .tecnologia {
@@ -80,6 +93,6 @@ h3 {
 .anio,
 .empresa,
 .titulo-estudio {
-  color: black;
+  color: var(--text);
   margin-bottom: 5px;
 }
