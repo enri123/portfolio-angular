@@ -2,19 +2,44 @@ h3 {
   color: var(--text);
 }
 
+.cabecera-cv {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.cabecera-cv > p:last-child {
+  max-width: 680px;
+  line-height: 1.7;
+}
+
+.eyebrow {
+  margin-bottom: 6px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .contenedor-cv {
   display: flex;
+  align-items: flex-start;
+  gap: 36px;
   width: 100%;
-  height: 100%;
 }
 
 .bloque-formacion {
-  width: 60%;
-  margin-right: 10px;
+  flex: 1.35;
+  min-width: 0;
 }
 
 .bloque-habilidades {
-  width: 40%;
+  flex: 0.65;
+  min-width: 220px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--surface) 82%, var(--page-background));
 }
 
 .lista-formacion,
@@ -23,14 +48,13 @@ h3 {
 }
 
 .columna-izq {
-  width: 20%;
+  flex: 0 0 110px;
   text-align: end;
-  border-color: var(--border);
-  border-right-width: 1px;
 }
 
 .columna-der {
-  width: 75%;
+  flex: 1;
+  min-width: 0;
 }
 
 .centro {
@@ -39,7 +63,7 @@ h3 {
 
 .item-formacion,
 .item-experiencia {
-  margin-bottom: 0;
+  margin-bottom: 22px;
   display: flex;
   width: 100%;
 }
@@ -49,7 +73,8 @@ h3 {
   width: 14px;
   min-height: 14px;
   align-self: stretch;
-  margin: 5px 10px;
+  flex: 0 0 14px;
+  margin: 5px 16px;
   position: relative;
 }
 
@@ -84,6 +109,19 @@ h3 {
 .detalle-estudio,
 .detalle-experiencia {
   color: var(--muted-text);
+  line-height: 1.65;
+}
+
+.detalle-experiencia + .detalle-experiencia {
+  margin-top: 8px;
+}
+
+.titulo-seccion {
+  margin: 26px 0 16px;
+}
+
+.bloque-formacion > .titulo-seccion:first-child {
+  margin-top: 0;
 }
 
 .tecnologia {
@@ -95,4 +133,65 @@ h3 {
 .titulo-estudio {
   color: var(--text);
   margin-bottom: 5px;
+}
+
+.empresa,
+.titulo-estudio {
+  font-weight: 700;
+}
+
+.nivel-habilidad {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  min-height: 32px;
+  padding: 7px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+}
+
+.nivel-habilidad:last-child {
+  border-bottom: 0;
+}
+
+.tecnologia {
+  flex: 1;
+  margin: 0;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+.nivel-habilidad i {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .contenedor-cv {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .bloque-formacion,
+  .bloque-habilidades {
+    width: 100%;
+  }
+
+  .bloque-habilidades {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .columna-izq {
+    flex-basis: 72px;
+  }
+
+  .linea-separador {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .centro {
+    font-size: 0.78rem;
+  }
 }

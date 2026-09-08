@@ -1,31 +1,29 @@
 <div class="contenido">
-  <h2 class="titulo" i18n>Contacto</h2>
+  <header class="cabecera-contacto">
+    <p class="eyebrow">Hablemos</p>
+    <h2 class="titulo">Contacto</h2>
+    <p>¿Tienes una propuesta, un proyecto o quieres conocer mejor mi trabajo? Puedes escribirme directamente.</p>
+  </header>
   <div class="datos">
     <div class="botones">
-      <a href="https://maps.app.goo.gl/uEHv49gQw9gEmHMc6" target="_blank">
-        <button class="boton">
-          <mat-icon matListItemIcon class="icon">place</mat-icon>
-          <p class="p-button"><strong>Algeciras</strong></p>
-        </button>
+      <a class="boton" href="https://maps.app.goo.gl/uEHv49gQw9gEmHMc6" target="_blank" rel="noopener noreferrer">
+        <mat-icon class="icon" aria-hidden="true">place</mat-icon>
+        <span><small>Ubicación</small><strong>España</strong></span>
       </a>
 
-      <a href="https://api.whatsapp.com/send?phone=34657825611" target="_blank">
-        <button class="boton">
-          <mat-icon matListItemIcon class="icon">local_phone</mat-icon>
-          <p class="p-button"><strong>657 825 611</strong></p>
-        </button>
+      <a class="boton" href="https://api.whatsapp.com/send?phone=34657825611" target="_blank" rel="noopener noreferrer">
+        <mat-icon class="icon" aria-hidden="true">local_phone</mat-icon>
+        <span><small>Teléfono</small><strong>657 825 611</strong></span>
       </a>
 
-      <a href="mailto:enriruiztirado11@gmail.com" target="_blank">
-        <button class="boton">
-          <mat-icon matListItemIcon class="icon">mail</mat-icon>
-          <p class="p-button"><strong>enriruiztirado11@gmail.com</strong></p>
-        </button>
+      <a class="boton" href="mailto:enriruiztirado11@gmail.com">
+        <mat-icon class="icon" aria-hidden="true">mail</mat-icon>
+        <span><small>Email</small><strong>enriruiztirado11@gmail.com</strong></span>
       </a>
     </div>
     <div class="formulario">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51559.31819819795!2d-5.499054094090719!3d36.13107512024257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c9496ba5d5751%3A0xa626ca859cd81ce9!2sAlgeciras%2C%20C%C3%A1diz!5e0!3m2!1ses!2ses!4v1763244490923!5m2!1ses!2ses"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6636812.453867673!2d-12.253938425735845!3d35.68608487702633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc42e3783261bc8b%3A0xa6ec2c940768a3ec!2zRXNwYcOxYQ!5e0!3m2!1ses!2ses!4v1788849705287!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">"
         width="100%"
         height="200px"
         style="border: 0"
@@ -35,7 +33,7 @@
       ></iframe>
 
       <form (ngSubmit)="sendEmail()" #contactForm="ngForm">
-        <label i18n>
+        <label>
           Nombre:
           <input
             type="text"
@@ -46,7 +44,7 @@
           />
         </label>
 
-        <label i18n>
+        <label>
           Correo:
           <input
             type="email"
@@ -57,7 +55,7 @@
           />
         </label>
 
-        <label i18n>
+        <label>
           Asunto:
           <input
             type="text"
@@ -68,7 +66,7 @@
           />
         </label>
 
-        <label i18n>
+        <label>
           Mensaje:
           <textarea
             name="message"
@@ -78,7 +76,7 @@
           ></textarea>
         </label>
 
-        <button i18n class="boton_form" type="submit" [disabled]="sending">
+        <button class="boton_form" type="submit" [disabled]="sending">
           {{ sending ? 'Enviando...' : 'Enviar' }}
         </button>
 

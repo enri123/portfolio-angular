@@ -1,0 +1,39 @@
+Gisgal
+Análisis técnico y definición de la arquitectura de Munimap, una plataforma SaaS GIS orientada a centralizar información georreferenciada municipal en un visor web compartido por diferentes aplicaciones.
+
+Trabajo sobre una arquitectura de monolito modular, con módulos y fronteras claras orientadas al dominio, priorizando mantenibilidad, interoperabilidad, escalabilidad y reducción de complejidad operacional.
+
+Diseño del stack del visor GIS basado en React, TypeScript, Vite, Material UI, React Query y OpenLayers, utilizando teselas vectoriales MVT para representar información geográfica de forma eficiente.
+
+Análisis de la arquitectura backend basada en Node.js, Fastify y AJV, junto con PostgreSQL/PostGIS, Row Level Security (RLS) y Martin para la generación y distribución de teselas geográficas.
+
+Consideración de aspectos de calidad, seguridad y mantenibilidad mediante tecnologías como Docker, Terraform, Playwright, Vitest, pgTAP, Prettier y SonarQube, dentro de un flujo de desarrollo basado en GitHub y CI/CD.
+
+Análisis de una arquitectura cloud orientada a la escalabilidad y portabilidad, contemplando AWS, ECS/Fargate, Lambda, S3, CloudFront y Terraform.
+
+Trabajo con una arquitectura de datos geoespaciales basada en una base PostgreSQL/PostGIS compartida, aislamiento de información mediante RLS y estrategias de particionado y réplicas de lectura.
+
+
+
+BAlearia
+Desarrollo y mantenimiento de aplicaciones utilizando Java, Spring Boot y JavaScript, trabajando sobre software utilizado en un entorno empresarial.
+
+Desarrollo de APIs REST con Spring Boot, trabajando en la implementación y evolución de servicios backend.
+
+Aplicación de buenas prácticas de desarrollo y control de versiones mediante GitLab, manteniendo un flujo de trabajo colaborativo.
+
+Gestión y seguimiento del trabajo mediante Jira, dentro de un entorno de desarrollo profesional.
+
+Experiencia práctica en desarrollo backend y full stack, adquiriendo experiencia con arquitecturas basadas en APIs REST y tecnologías del ecosistema Java.
+
+Kimau
+Diseño y desarrollo de un plugin de WordPress orientado a seguridad web y a la implementación de shortcodes, ampliando las funcionalidades de la plataforma.
+
+Desarrollo y personalización de páginas web mediante Elementor, adaptando la interfaz y mejorando la experiencia de usuario.
+
+Aplicación de principios de clean code para mantener un código estructurado, mantenible y fácil de evolucionar.
+Realización de pruebas y comprobaciones orientadas a garantizar el correcto funcionamiento y rendimiento del software.
+
+Experiencia práctica en desarrollo Full Stack / Web Development, combinando desarrollo de funcionalidades, personalización de interfaces y atención a aspectos de calidad del software.
+
+
