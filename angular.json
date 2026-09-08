@@ -20,7 +20,7 @@
           "builder": "@angular/build:application",
           "options": {
             "localize": true,
-            "i18nMissingTranslation": "error",
+            "i18nMissingTranslation": "warning",
             "browser": "src/main.ts",
             "polyfills": ["zone.js", "@angular/localize/init"],
             "tsConfig": "tsconfig.app.json",
@@ -93,6 +93,12 @@
             },
             "development": {
               "buildTarget": "portfolio-angular:build:development"
+            },
+            "es": {
+              "buildTarget": "portfolio-angular:build:es"
+            },
+            "en": {
+              "buildTarget": "portfolio-angular:build:en"
             }
           },
           "defaultConfiguration": "development"

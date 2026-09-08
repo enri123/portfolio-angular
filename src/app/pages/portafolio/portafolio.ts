@@ -26,24 +26,24 @@ interface Proyecto {
 export class Portafolio {
   filtros: GrupoFiltros[] = [
     {
-      titulo: 'Tecnologias',
+      titulo: $localize`:@@portfolio.technologies:Tecnologías`,
       items: [
-        { id: 'docker', label: 'Docker' },
-        { id: 'ci-cd', label: 'CI/CD' },
-        { id: 'backend', label: 'Backend' },
-        { id: 'frontend', label: 'Frontend' },
-        { id: 'full-stack', label: 'Full Stack' },
-        { id: 'desktop-app', label: 'Desktop App' },
+        { id: 'docker', label: $localize`:@@technology.docker:Docker` },
+        { id: 'ci-cd', label: $localize`:@@technology.ciCd:CI/CD` },
+        { id: 'backend', label: $localize`:@@technology.backend:Backend` },
+        { id: 'frontend', label: $localize`:@@technology.frontend:Frontend` },
+        { id: 'full-stack', label: $localize`:@@technology.fullStack:Full Stack` },
+        { id: 'desktop-app', label: $localize`:@@technology.desktopApp:Desktop App` },
       ],
     },
     {
-      titulo: 'Lenguajes de programacion',
+      titulo: $localize`:@@portfolio.languages:Lenguajes de programación`,
       items: [
-        { id: 'sql', label: 'SQL' },
-        { id: 'python', label: 'Python' },
-        { id: 'node', label: 'Node' },
-        { id: 'angular', label: 'Angular' },
-        { id: 'react', label: 'React' },
+        { id: 'sql', label: $localize`:@@language.sql:SQL` },
+        { id: 'python', label: $localize`:@@language.python:Python` },
+        { id: 'node', label: $localize`:@@language.node:Node` },
+        { id: 'angular', label: $localize`:@@language.angular:Angular` },
+        { id: 'react', label: $localize`:@@language.react:React` },
       ],
     },
   ];

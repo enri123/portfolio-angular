@@ -1,6 +1,12 @@
 <mat-nav-list>
   @for (item of items(); track item.label) {
-    <a class="enlace-boton" [routerLink]="item.path" routerLinkActive="active" mat-list-item>
+    <a
+      class="enlace-boton"
+      [routerLink]="item.path"
+      [attr.aria-label]="item.label"
+      routerLinkActive="active"
+      mat-list-item
+    >
       <mat-icon matListItemIcon>{{ item.icon }}</mat-icon>
       <!--<span matListItemTitle>{{ item.label }}</span>-->
     </a>

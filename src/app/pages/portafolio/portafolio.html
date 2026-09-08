@@ -1,12 +1,12 @@
 <div class="contenido">
   <header class="cabecera-portafolio">
-    <p class="eyebrow">Trabajo seleccionado</p>
-    <h2>Proyectos personales</h2>
-    <p>Una selección de proyectos para explorar mis intereses en desarrollo web, backend, datos y automatización.</p>
+    <p class="eyebrow" i18n="@@portfolio.eyebrow">Trabajo seleccionado</p>
+    <h2 i18n="@@portfolio.title">Proyectos personales</h2>
+    <p i18n="@@portfolio.intro">Una selección de proyectos para explorar mis intereses en desarrollo web, backend, datos y automatización.</p>
   </header>
 
   <section class="filtros" aria-labelledby="filtros-titulo">
-    <h3 id="filtros-titulo">Filtrar por tecnología</h3>
+    <h3 id="filtros-titulo" i18n="@@portfolio.filterTitle">Filtrar por tecnología</h3>
     @for (grupo of filtros; track grupo.titulo) {
       <div class="filtros-grupo">
         <h5>{{ grupo.titulo }}</h5>
@@ -33,16 +33,16 @@
       @for (proyecto of visibleProjects(); track proyecto.label) {
         <article class="proyecto-item">
           <a class="project-card" [href]="proyecto.path" target="_blank" rel="noopener noreferrer">
-            <img [src]="proyecto.imagen" [alt]="'Ver proyecto ' + proyecto.label" loading="lazy" />
+            <img [src]="proyecto.imagen" [alt]="'Ver proyecto ' + proyecto.label" i18n-alt="@@portfolio.projectAlt" loading="lazy" />
             <div class="project-info">
               <h3>{{ proyecto.label }}</h3>
-              <span>Ver en GitHub <span aria-hidden="true">↗</span></span>
+              <span i18n="@@portfolio.githubLink">Ver en GitHub <span aria-hidden="true">↗</span></span>
             </div>
           </a>
         </article>
       }
     </div>
   } @else {
-    <p class="sin-resultados">No hay proyectos que coincidan con los filtros seleccionados.</p>
+    <p class="sin-resultados" i18n="@@portfolio.noResults">No hay proyectos que coincidan con los filtros seleccionados.</p>
   }
 </div>

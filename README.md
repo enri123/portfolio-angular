@@ -71,6 +71,19 @@ Los artefactos compilados se guardarán en el directorio `dist/`.
 
 El repositorio tiene incluidas una serie de pruebas CI/CD en el archivo ci.yml, para comprobar su correcto funcionamiento al momento de mandarlo al repositorio.
 
+### Internacionalización
+
+La aplicación usa Angular i18n con español como idioma fuente e inglés como idioma traducible.
+Para actualizar el catálogo después de añadir o modificar textos visibles:
+
+```bash
+npm run extract-i18n
+```
+
+El catálogo fuente se genera en `src/locale/messages.xlf`. Las traducciones inglesas se mantienen
+en `src/locale/messages.en.xlf`; durante una traducción incremental, los mensajes pendientes se
+avisan como warnings para no bloquear la compilación.
+
 ---
 
 ## 📁 Estructura del Proyecto

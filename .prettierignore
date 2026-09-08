@@ -4,7 +4,7 @@ docs
 coverage
 
 .angular
-
+locale
 package-lock.json
 
 *.min.js

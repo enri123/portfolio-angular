@@ -35,13 +35,19 @@ export class Contacto {
   successMsg = '';
   errorMsg = '';
 
+  get submitLabel(): string {
+    return this.sending
+      ? $localize`:@@contact.sending:Enviando...`
+      : $localize`:@@contact.send:Enviar`;
+  }
+
   async sendEmail() {
     this.successMsg = '';
     this.errorMsg = '';
 
     // Validación simple
     if (!this.model.from || !this.model.reply_to || !this.model.title || !this.model.message) {
-      this.errorMsg = '❌ Por favor, completa todos los campos.';
+      this.errorMsg = $localize`:@@contact.requiredError:Por favor, completa todos los campos.`;
       return;
     }
 
@@ -56,14 +62,16 @@ export class Contacto {
       );
 
       if (result.status === 200) {
-        this.successMsg = '✅ Correo enviado correctamente.';
+        this.successMsg = $localize`:@@contact.success:Correo enviado correctamente.`;
         this.model = { from: '', reply_to: '', title: '', message: '' };
       } else {
-        this.errorMsg = '❌ Error al enviar el correo.';
+        this.errorMsg = $localize`:@@contact.sendError:Error al enviar el correo.`;
       }
     } catch (err: any) {
       console.error('Error de envío:', err);
-      this.errorMsg = '❌ ' + (err.text || err.message || 'Error desconocido.');
+      const details =
+        err.text || err.message || $localize`:@@contact.unknownError:Error desconocido.`;
+      this.errorMsg = $localize`:@@contact.sendErrorPrefix:Error al enviar el correo: ${details}`;
     } finally {
       this.sending = false;
     }

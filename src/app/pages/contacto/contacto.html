@@ -1,24 +1,24 @@
 <div class="contenido">
   <header class="cabecera-contacto">
-    <p class="eyebrow">Hablemos</p>
-    <h2 class="titulo">Contacto</h2>
-    <p>¿Tienes una propuesta, un proyecto o quieres conocer mejor mi trabajo? Puedes escribirme directamente.</p>
+    <p class="eyebrow" i18n="@@contact.eyebrow">Hablemos</p>
+    <h2 class="titulo" i18n="@@contact.title">Contacto</h2>
+    <p i18n="@@contact.intro">¿Tienes una propuesta, un proyecto o quieres conocer mejor mi trabajo? Puedes escribirme directamente.</p>
   </header>
   <div class="datos">
     <div class="botones">
       <a class="boton" href="https://maps.app.goo.gl/uEHv49gQw9gEmHMc6" target="_blank" rel="noopener noreferrer">
         <mat-icon class="icon" aria-hidden="true">place</mat-icon>
-        <span><small>Ubicación</small><strong>España</strong></span>
+        <span><small i18n="@@contact.location">Ubicación</small><strong>España</strong></span>
       </a>
 
       <a class="boton" href="https://api.whatsapp.com/send?phone=34657825611" target="_blank" rel="noopener noreferrer">
         <mat-icon class="icon" aria-hidden="true">local_phone</mat-icon>
-        <span><small>Teléfono</small><strong>657 825 611</strong></span>
+        <span><small i18n="@@contact.phone">Teléfono</small><strong>657 825 611</strong></span>
       </a>
 
       <a class="boton" href="mailto:enriruiztirado11@gmail.com">
         <mat-icon class="icon" aria-hidden="true">mail</mat-icon>
-        <span><small>Email</small><strong>enriruiztirado11@gmail.com</strong></span>
+        <span><small i18n="@@contact.email">Email</small><strong>enriruiztirado11@gmail.com</strong></span>
       </a>
     </div>
     <div class="formulario">
@@ -34,50 +34,54 @@
 
       <form (ngSubmit)="sendEmail()" #contactForm="ngForm">
         <label>
-          Nombre:
+          <span i18n="@@contact.nameLabel">Nombre:</span>
           <input
             type="text"
             name="from_name"
             [(ngModel)]="model.from"
             required
             placeholder="Nombre"
+            i18n-placeholder="@@contact.namePlaceholder"
           />
         </label>
 
         <label>
-          Correo:
+          <span i18n="@@contact.emailLabel">Correo:</span>
           <input
             type="email"
             name="reply_to"
             [(ngModel)]="model.reply_to"
             required
             placeholder="Correo"
+            i18n-placeholder="@@contact.emailPlaceholder"
           />
         </label>
 
         <label>
-          Asunto:
+          <span i18n="@@contact.subjectLabel">Asunto:</span>
           <input
             type="text"
             name="subject"
             [(ngModel)]="model.title"
             required
             placeholder="Asunto"
+            i18n-placeholder="@@contact.subjectPlaceholder"
           />
         </label>
 
         <label>
-          Mensaje:
+          <span i18n="@@contact.messageLabel">Mensaje:</span>
           <textarea
             name="message"
             [(ngModel)]="model.message"
             required
             placeholder="Mensaje"
+            i18n-placeholder="@@contact.messagePlaceholder"
           ></textarea>
         </label>
 
         <button class="boton_form" type="submit" [disabled]="sending">
-          {{ sending ? 'Enviando...' : 'Enviar' }}
+          {{ submitLabel }}
         </button>
 
         @if (successMsg) {

@@ -17,10 +17,10 @@ interface MenuItem {
 })
 export class CustomSidenav {
   items = signal<MenuItem[]>([
-    { path: '/home', icon: 'home', label: 'Inicio' },
-    { path: '/sobre-mi', icon: 'book', label: 'Sobre mi' },
-    { path: '/curriculum', icon: 'school', label: 'Curriculum' },
-    { path: '/portafolio', icon: 'book', label: 'Portafolio' },
-    { path: '/contacto', icon: 'mail', label: 'Contacto' },
+    { path: '/home', icon: 'home', label: $localize`:@@nav.home:Inicio` },
+    { path: '/sobre-mi', icon: 'book', label: $localize`:@@nav.about:Sobre mí` },
+    { path: '/curriculum', icon: 'school', label: $localize`:@@nav.resume:Currículum` },
+    { path: '/portafolio', icon: 'book', label: $localize`:@@nav.portfolio:Portafolio` },
+    { path: '/contacto', icon: 'mail', label: $localize`:@@nav.contact:Contacto` },
   ]);
 }
