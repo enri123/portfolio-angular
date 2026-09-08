@@ -39,7 +39,9 @@
   background: color-mix(in srgb, var(--surface) 82%, var(--page-background));
   color: var(--text);
   text-decoration: none;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .boton:hover,
